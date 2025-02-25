@@ -12,6 +12,8 @@ dependencies = [
 [project.scripts]
 res ="course.research:main"
 customer ="course.customer:main"
+outreach ="course.customer_outreach:main"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"

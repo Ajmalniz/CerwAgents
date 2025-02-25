@@ -45,6 +45,19 @@ cp .env.example .env
   - Detailed response generation
   - Quality assurance review process
 
+### 🤝 Customer Outreach System
+
+- **Sales Team**
+  - Sales Representative: Identifies and profiles high-value leads
+  - Lead Sales Representative: Crafts personalized communications
+  - Quality Assurance Agent: Reviews and validates outreach communications
+
+- **Outreach Features**
+  - Lead profiling and analysis
+  - Personalized email campaign generation
+  - Sentiment analysis for communications
+  - Quality assurance review process
+
 ## 💻 Usage Examples
 
 ### Generate Research Content
