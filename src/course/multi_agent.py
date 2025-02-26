@@ -70,6 +70,13 @@ risk_management_agent = Agent(
     allow_delegation=True,
     tools=[scrape_tool, search_tool]
 )
+manager_agent = Agent(
+    role="Manager",
+    goal="Coordinate and oversee the trading analysis process",
+    backstory="Experienced trading manager who orchestrates the workflow between analysis, strategy, execution, and risk teams",
+    verbose=True,
+    allow_delegation=True
+)
 
 # Tasks remain the same
 data_analysis_task = Task(
@@ -132,7 +139,9 @@ def main():
         multiAgent = Crew(
             agents=[data_analyst_agent, trading_strategy_agent, execution_agent, risk_management_agent],
             tasks=[data_analysis_task, strategy_development_task, execution_planning_task, risk_assessment_task],
-            verbose=True
+            verbose=True,
+            process=Process.hierarchical,  # Change to hierarchical
+            manager_agent=manager_agent     # Specify the manager
         )
         
         input = {

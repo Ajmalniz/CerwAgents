@@ -18,6 +18,7 @@ customer ="course.customer:main"
 outreach ="course.customer_outreach:main"
 event = "course.event_planner:main"
 multiAgent = "course.multi_agent:main" 
+fin = "course.finicial:main"
 
 [build-system]
 requires = ["hatchling"]
