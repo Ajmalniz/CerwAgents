@@ -13,6 +13,7 @@ dependencies = [
 res ="course.research:main"
 customer ="course.customer:main"
 outreach ="course.customer_outreach:main"
+event = "course.event_planner:main"
 
 [build-system]
 requires = ["hatchling"]
