@@ -1,6 +1,6 @@
 {
-  "name": "Moscone Center",
-  "adress": "747 Howard St, San Francisco, CA 94103",
-  "capacity": 0,
-  "booking_status": "Available, but requires submitting a Request for Proposal (RFP)"
+  "name": "Karachi Marriott Hotel",
+  "adress": "9 Abdullah Haroon Road, Karachi, Pakistan, 75530",
+  "capacity": 1000,
+  "booking_status": "Unknown"
 }

@@ -7,6 +7,9 @@ requires-python = ">=3.10,<3.13"
 dependencies = [
     "crewai-tools>=0.36.0",
     "crewai[tools]>=0.100.1,<1.0.0",
+    "langchain>=0.3.19",
+    "langchain-google-genai>=2.0.11",
+    "litellm>=1.60.2",
 ]
 
 [project.scripts]
@@ -14,6 +17,7 @@ res ="course.research:main"
 customer ="course.customer:main"
 outreach ="course.customer_outreach:main"
 event = "course.event_planner:main"
+multiAgent = "course.multi_agent:main" 
 
 [build-system]
 requires = ["hatchling"]

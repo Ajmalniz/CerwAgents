@@ -110,13 +110,13 @@ def main():
         event_detail = {
             'event_topic': "Tech Innovation Conference",
             'event_description': "A gathering of tech innovators "
-                                "and industry leaders "
-                                "to explore future technologies.",
-            'event_city': "San Francisco",
-            'tentative_date': "2024-09-15",
-            'expected_participants': 500,
-            'budget': 20000,
-            'venue_type': "Conference Hall"
+                                 "and industry leaders "
+                                 "to explore future technologies.",
+            'event_city': "Karachi",
+            'tentative_date': "2025-03-15",
+            'expected_participants': 200,
+            'budget': 200000,
+            'venue_type': "Conference Hall or merriage hall"
 
         } 
         event_mangement_crew.kickoff(event_detail)
