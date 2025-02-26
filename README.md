@@ -1,6 +1,6 @@
-# AI-Powered Content & Research System
+# AI-Powered Multi-Agent Automation System
 
-A Python-based AI automation solution using CrewAI for content creation and customer support. The system leverages intelligent agent workflows to generate blog posts and handle customer inquiries.
+A Python-based AI automation solution using CrewAI for content creation, customer support, event planning, and financial analysis. The system leverages intelligent agent workflows to handle various business operations.
 
 ## 🚀 Quick Start
 
@@ -17,7 +17,7 @@ uv run sync
 
 # Configure environment
 cp .env.example .env
-# Add your OpenAI API key to .env
+# Add your API keys to .env
 ```
 
 ## ✨ Key Features
@@ -29,34 +29,32 @@ cp .env.example .env
   - Writer: Creates detailed blog posts based on outlines
   - Editor: Reviews and refines content for quality
 
-- **Output Capabilities**
-  - Markdown-formatted blog posts
-  - SEO-optimized content
-  - Structured sections with proper headers
-
 ### 🛎️ Customer Support System
 
 - **Support Team**
   - Senior Support Representative: Handles customer inquiries
   - Quality Assurance Specialist: Reviews support responses
-  
-- **Support Features**
-  - Website documentation integration
-  - Detailed response generation
-  - Quality assurance review process
 
 ### 🤝 Customer Outreach System
 
 - **Sales Team**
   - Sales Representative: Identifies and profiles high-value leads
   - Lead Sales Representative: Crafts personalized communications
-  - Quality Assurance Agent: Reviews and validates outreach communications
 
-- **Outreach Features**
-  - Lead profiling and analysis
-  - Personalized email campaign generation
-  - Sentiment analysis for communications
-  - Quality assurance review process
+### 📅 Event Planning System
+
+- **Event Team**
+  - Venue Coordinator: Identifies and books appropriate venues
+  - Logistics Manager: Handles catering and equipment
+  - Marketing Communications Agent: Promotes events and engages participants
+
+### 📊 Financial Analysis System
+
+- **Trading Team**
+  - Data Analyst: Monitors and analyzes market data
+  - Trading Strategy Developer: Develops trading strategies
+  - Trade Advisor: Suggests execution strategies
+  - Risk Advisor: Evaluates trading risks
 
 ## 💻 Usage Examples
 
@@ -70,30 +68,83 @@ uv run res
 uv run customer
 ```
 
+### Manage Customer Outreach
+```bash
+uv run outreach
+```
+
+### Plan Events
+```bash
+uv run event
+```
+
+### Run Financial Analysis
+```bash
+uv run multiAgent
+```
+
 ## 🛠️ Technical Stack
 
 - CrewAI Framework
 - CrewAI Tools
 - Python 3.10+
 - UV Package Manager
+- Serper API for web search
+- Various specialized tools for each system
 
 ## ⚙️ Configuration
 
 ### Prerequisites
 - Python 3.10-3.12
-- OpenAI API key
+- Required API keys (Serper, etc.)
 - UV package manager
 
 ### Project Structure
 ```
 src/course/
-├── research.py    # Content generation system
-└── customer.py    # Customer support system
+├── research.py          # Content generation system
+├── customer.py         # Customer support system
+├── customer_outreach.py # Sales outreach system
+├── event_planner.py    # Event planning system
+└── multi_agent.py      # Financial analysis system
 ```
 
 ### Output Files
 - `blog_post.md`: Generated content output
 - `customer.md`: Support response output
+- `customer_outreach.md`: Sales communications
+- `marketing_report.md`: Event marketing reports
+- `multi_agent_output.md`: Financial analysis reports
+- `venue_details.json`: Event venue information
+
+## 🔑 Key Features by System
+
+### Content Research System
+- SEO-optimized content generation
+- Structured blog post creation
+- Multi-stage review process
+
+### Customer Support System
+- Documentation integration
+- Detailed response generation
+- Quality assurance review
+
+### Customer Outreach System
+- Lead profiling and analysis
+- Personalized email campaigns
+- Sentiment analysis
+
+### Event Planning System
+- Venue selection and booking
+- Logistics coordination
+- Marketing campaign management
+- Attendee engagement strategies
+
+### Financial Analysis System
+- Real-time market data analysis
+- Trading strategy development
+- Risk assessment
+- Execution planning
 
 ## 🤝 Contributing
 
