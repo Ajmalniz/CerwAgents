@@ -1,6 +1,6 @@
 # AI-Powered Multi-Agent Automation System
 
-A Python-based AI automation solution using CrewAI for content creation, customer support, event planning, and financial analysis. The system leverages intelligent agent workflows to handle various business operations.
+A Python-based AI automation solution using CrewAI for content creation, customer support, event planning, financial analysis, and job search optimization. The system leverages intelligent agent workflows to handle various business operations.
 
 ## 🚀 Quick Start
 
@@ -56,6 +56,15 @@ cp .env.example .env
   - Trade Advisor: Suggests execution strategies
   - Risk Advisor: Evaluates trading risks
 
+### 💼 Job Search Optimization System
+
+- **Career Team**
+  - Resume Analyst: Analyzes and summarizes resumes
+  - Tech Job Researcher: Analyzes job postings in detail
+  - Personal Profiler: Creates comprehensive candidate profiles
+  - Resume Strategist: Optimizes resumes for specific positions
+  - Interview Preparer: Develops interview strategies and materials
+
 ## 💻 Usage Examples
 
 ### Generate Research Content
@@ -80,7 +89,12 @@ uv run event
 
 ### Run Financial Analysis
 ```bash
-uv run multiAgent
+uv run fin
+```
+
+### Optimize Job Applications
+```bash
+uv run job
 ```
 
 ## 🛠️ Technical Stack
@@ -90,13 +104,14 @@ uv run multiAgent
 - Python 3.10+
 - UV Package Manager
 - Serper API for web search
+- Google Gemini API for AI processing
 - Various specialized tools for each system
 
 ## ⚙️ Configuration
 
 ### Prerequisites
 - Python 3.10-3.12
-- Required API keys (Serper, etc.)
+- Required API keys (Serper, Gemini, etc.)
 - UV package manager
 
 ### Project Structure
@@ -106,7 +121,8 @@ src/course/
 ├── customer.py         # Customer support system
 ├── customer_outreach.py # Sales outreach system
 ├── event_planner.py    # Event planning system
-└── multi_agent.py      # Financial analysis system
+├── finicial.py         # Financial analysis system
+└── job.py             # Job application optimization system
 ```
 
 ### Output Files
@@ -116,6 +132,8 @@ src/course/
 - `marketing_report.md`: Event marketing reports
 - `multi_agent_output.md`: Financial analysis reports
 - `venue_details.json`: Event venue information
+- `tailored_resume.md`: Optimized resume output
+- `interview_materials.md`: Interview preparation materials
 
 ## 🔑 Key Features by System
 
@@ -145,6 +163,18 @@ src/course/
 - Trading strategy development
 - Risk assessment
 - Execution planning
+
+### Job Search Optimization System
+- Resume analysis and enhancement
+- Job posting requirement analysis
+- Personal profile development
+- Strategic resume tailoring
+- Comprehensive interview preparation
+- AI-powered job matching
+- Interview question generation
+- Career strategy development
+- Automated resume customization
+- Skills gap analysis
 
 ## 🤝 Contributing
 

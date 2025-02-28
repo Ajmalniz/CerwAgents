@@ -1,0 +1,72 @@
+Ajmal Khan Nizamani
+
+Full Stack Developer | Generative & Agentic Al Enthusiast | Data Analytics Certified | Modern Web Development | Karachi, Sindh, Pakistan
+
+Contact
+
+aknizamani@gmail.com
+
+www.linkedin.com/in/ajmal-ai-engineer (LinkedIn)
+
+Summary
+
+I am a Full Stack Developer, Al Enthusiast, and Data Analyst with a strong passion for Generative Al, Agentic Al, and modern web development. With a Bachelor's degree in Engineering, I have specialized in Meta Front-End Development and continuously expand my skill set to stay at the forefront of technology.
+
+In addition to Al-driven automation, I hold Google Data Analytics and Advanced Analytics certifications, equipping me with expertise in data-driven decision-making, business intelligence, and analytics solutions. I am currently exploring Agentic Al frameworks such as CrewAl, AutoGen, and LangGraph, alongside Graph Databases and Vector Databases for Al applications.
+
+#Technical Skills
+
+Al & Data Analytics: Generative Al, Agentic Al (CrewAl, AutoGen, LangGraph), Google Data Analytics, Business Intelligence
+Web Development: Next.js, React, Tailwind CSS, Shadcn UI, TypeScript, JavaScript, Headless CMS
+Programming Languages: Python, TypeScript, JavaScript, C++
+Databases: Graph Databases, Vector Databases, SQL, NoSQL
+Other Technologies: Git, API Development, Blockchain, Sanity.io
+
+Top Skills
+
+Python (Programming Language)
+TypeScript
+Cascading Style Sheets (CSS)
+
+Certifications
+
+Google Data Analytics Specialization
+
+Current Focus
+
+Al Agents & Automation - Exploring CrewAl, AutoGen, and LangGraph to create advanced Al-driven workflows.
+Graph & Vector Databases - Leveraging knowledge graphs for intelligent search and Al-powered decision-making.
+Next-Gen Web Development - Harnessing the power of Next.js, Tailwind CSS, and modern Ul frameworks.
+
+Let's Connect
+
+I'm always open to collaboration, innovative projects, and Al-driven solutions. Whether it's Al, data analytics, web development, or automation, let's connect and build something amazing together!
+
+Connect with me on LinkedIn
+
+#Al #AgenticAl #DataAnalytics #FullStackDevelopment #GenerativeAl #Web Development #NextJS #GraphDatabases #Blockchain #CrewAl #AutoGen
+
+Experience
+
+Government of Sindh
+Teacher
+May 2022 - Present (2 years 10 months)
+Tando Soomro, Sindh, Pakistan
+
+Zarai Taraqiati Bank Limited
+Operations Manager
+April 2017 - May 2022 (5 years 2 months)
+Karachi, Sindh, Pakistan
+
+The University of Mirpurkhas
+Teacher
+January 2013 - April 2017 (4 years 4 months)
+Mirpur Khas District, Sindh, Pakistan
+
+Education
+
+PIAIC
+Cloud Native Ai agentic developer, Computer Science (July 2023 - December 2025)
+
+COMSATS University Islamabad, Abbottabad Campus
+Bachelor of Computer Engineering, Computer Science (August 2008 - August 2012)
