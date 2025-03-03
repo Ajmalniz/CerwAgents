@@ -1,23 +1,23 @@
-# AI-Powered Multi-Agent Automation System
+# CrewAgents: AI-Powered Multi-Agent Automation System
 
-A Python-based AI automation solution using CrewAI for content creation, customer support, event planning, financial analysis, and job search optimization. The system leverages intelligent agent workflows to handle various business operations.
+A Python-based automation framework leveraging the crewai library to orchestrate intelligent agents for tasks like content creation, customer support, event planning, financial analysis, and job search optimization. This project demonstrates scalable AI workflows for real-world business applications.
 
 ## 🚀 Quick Start
 
 ```bash
-# Install UV package manager (if not present)
+# Install UV package manager (if not already installed)
 pip install uv
 
-# Clone and setup
-git clone https://github.com/yourrepo/course.git
-cd course
+# Clone the repository
+git clone https://github.com/Ajmalniz/CerwAgents.git
+cd CerwAgents
 
 # Install dependencies
-uv run sync
+uv sync
 
-# Configure environment
+# Set up environment variables
 cp .env.example .env
-# Add your API keys to .env
+# Edit .env to add your API keys (Serper, Gemini, etc.)
 ```
 
 ## ✨ Key Features
@@ -67,45 +67,21 @@ cp .env.example .env
 
 ## 💻 Usage Examples
 
-### Generate Research Content
 ```bash
-uv run res
-```
-
-### Handle Customer Support
-```bash
-uv run customer
-```
-
-### Manage Customer Outreach
-```bash
-uv run outreach
-```
-
-### Plan Events
-```bash
-uv run event
-```
-
-### Run Financial Analysis
-```bash
-uv run fin
-```
-
-### Optimize Job Applications
-```bash
-uv run job
+uv run res        # Generate research content
+uv run customer   # Handle customer support queries
+uv run outreach   # Execute customer outreach
+uv run event      # Plan an event
+uv run fin        # Perform financial analysis
+uv run job        # Optimize a job application
 ```
 
 ## 🛠️ Technical Stack
 
-- CrewAI Framework
-- CrewAI Tools
-- Python 3.10+
-- UV Package Manager
-- Serper API for web search
-- Google Gemini API for AI processing
-- Various specialized tools for each system
+- Framework: CrewAI for multi-agent orchestration
+- Language: Python 3.10+
+- Tools: UV (package management), Serper API (web search), Google Gemini API (AI processing)
+- Dependencies: Listed in requirements.txt
 
 ## ⚙️ Configuration
 
@@ -116,13 +92,13 @@ uv run job
 
 ### Project Structure
 ```
-src/course/
-├── research.py          # Content generation system
-├── customer.py         # Customer support system
+src/
+├── research.py          # Content generation logic
+├── customer.py         # Customer support workflows
 ├── customer_outreach.py # Sales outreach system
-├── event_planner.py    # Event planning system
-├── finicial.py         # Financial analysis system
-└── job.py             # Job application optimization system
+├── event_planner.py    # Event coordination
+├── financial.py        # Financial analysis tools
+└── job.py             # Job optimization system
 ```
 
 ### Output Files
