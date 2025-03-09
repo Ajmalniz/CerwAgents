@@ -27,33 +27,12 @@ This repository contains implementations, experiments, and examples of AI agents
 git clone https://github.com/Ajmalniz/CerwAgents.git
 cd CerwAgents
 Install dependencies:
-
+```
 bash
 Copy
 pip install -r requirements.txt
 Set up your environment variables (create .env file):
 
-env
-Copy
-OPENAI_API_KEY=your_api_key_here
-# Add other API keys as needed
-🧠 Basic Usage
-python
-Copy
-from crews import ResearchCrew
-
-# Define your inputs
-inputs = {
-    'topic': 'AI in Climate Change Mitigation',
-    'depth': 'intermediate'
-}
-
-# Create and run crew
-research_crew = ResearchCrew(inputs)
-result = research_crew.run()
-
-print("Research Results:")
-print(result)
 📂 Example Projects
 Research Team - Collaborative research agents (Researcher, Analyst, Writer)
 
