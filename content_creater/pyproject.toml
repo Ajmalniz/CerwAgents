@@ -1,0 +1,23 @@
+[project]
+name = "content_creater"
+version = "0.1.0"
+description = "content-creator using CrewAI"
+authors = [{ name = "Ajmal KHan", email = "aknizamani@gmail.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "chainlit>=2.2.1",
+    "crewai[tools]>=0.100.1,<1.0.0",
+]
+
+[project.scripts]
+kickoff = "content_creater.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/content_creater"]

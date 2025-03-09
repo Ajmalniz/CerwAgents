@@ -49,3 +49,9 @@ coverage/
 .coverage
 htmlcov/
 .pytest_cache/
+.venv
+.env
+.mypy_cache
+.files
+.chainlit
+__pycache___
