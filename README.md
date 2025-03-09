@@ -33,31 +33,7 @@ Copy
 pip install -r requirements.txt
 Set up your environment variables (create .env file):
 
-📂 Example Projects
-Research Team - Collaborative research agents (Researcher, Analyst, Writer)
-
-Marketing Crew - Content creation team (Strategist, Copywriter, Editor)
-
-Tech Analysis - Technology assessment task force
-
-Custom Crew Builder - Create your own agent configuration
-
-🤝 Contributing
-Contributions are welcome! Please follow these steps:
-
-Open an issue to discuss your proposed changes
-
-Fork the repository
-
-Create a feature branch (git checkout -b feature/your-feature)
-
-Commit your changes
-
-Push to the branch
-
-Open a pull request
-
-📄 License
+##📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🔗 Links
