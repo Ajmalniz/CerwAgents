@@ -9,11 +9,8 @@ dependencies = [
 ]
 
 [project.scripts]
-snake_demo = "snake_demo.main:run"
-run_crew = "snake_demo.main:run"
-train = "snake_demo.main:train"
-replay = "snake_demo.main:replay"
-test = "snake_demo.main:test"
+snake_demo = "snake_demo.main:main"
+
 
 [build-system]
 requires = ["hatchling"]

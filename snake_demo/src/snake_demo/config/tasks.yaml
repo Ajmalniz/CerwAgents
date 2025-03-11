@@ -1,17 +1,42 @@
-research_task:
+game_code_generation:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is {current_year}.
-  expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
-  agent: researcher
+    Create a Python game following these instructions:
 
-reporting_task:
-  description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Instructions:
+    ------------
+    {game_description}
+
+    - The player should be represented using a **blue rectangle**.
+    - The enemy should be represented using a **red circle**.
+    - The bullet should be represented using a **green rectangle**.
+    - Do NOT use images, only use `pygame.draw` functions.
+    - The final answer must be the **full Python code**, with no explanations.
+
   expected_output: >
-    A fully fledged report with the main topics, each with a full section of information.
-    Formatted as markdown without '```'
-  agent: reporting_analyst
+    A fully functional Python script implementing the game using `pygame.draw` for all objects.
+
+  agent: game_developer
+
+code_review_and_bug_fixes:
+  description: >
+    Review the generated game code for syntax errors, logic mistakes,
+    missing imports, and security vulnerabilities.
+
+    Your final answer must be the corrected Python code.
+  expected_output: >
+    A corrected version of the Python game code.
+  agent: code_quality_engineer
+
+game_testing_and_validation:
+  description: >
+    Validate that the game functions correctly and meets the initial requirements.
+
+    Ensure that:
+    - The game is playable.
+    - The logic follows the design.
+    - There are no unexpected crashes.
+
+    Your final answer must be a confirmed, fully functional game code.
+  expected_output: >
+    The final validated version of the Python game.
+  agent: game_tester

@@ -1,76 +1,105 @@
-# Snake Game AI Crew
+# Space Shooter Game AI Crew
 
-Welcome to the Snake Game AI Crew project, powered by [crewAI](https://crewai.com). This project demonstrates how multiple AI agents can collaborate to create, test, and optimize a classic snake game implementation. Our agents work together to handle different aspects of the game, from design to implementation and testing.
-
-## Installation
-
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling.
-
-First, install uv:
-
-```bash
-pip install uv
-```
-
-Next, navigate to your project directory and install the dependencies:
-
-```bash
-crewai install
-```
-
-### Configuration
-
-1. Add your `OPENAI_API_KEY` to the `.env` file
-2. Configure the following files:
-   - `src/snake_game/config/agents.yaml`: Define specialized agents for game development
-   - `src/snake_game/config/tasks.yaml`: Set up tasks for game design, implementation, and testing
-   - `src/snake_game/crew.py`: Customize game logic and agent interactions
-   - `src/snake_game/main.py`: Configure game parameters and initialization
+Welcome to the Space Shooter Game AI Crew project, powered by [crewAI](https://docs.crewai.com). This project demonstrates how multiple AI agents collaborate to create, test, and optimize a 2D space shooter game implementation using Pygame. Our agents work together to handle different aspects of the game development process, from implementation to testing.
 
 ## Game Features
 
-Our Snake Game implementation includes:
-- Classic snake movement mechanics
-- Score tracking and high score system
+The Space Shooter game includes:
+- Player-controlled spaceship (blue rectangle)
+- Enemy ships (red circles)
+- Shooting mechanics (green bullets)
 - Collision detection
-- Food spawning mechanics
-- Progressive difficulty levels
+- Score tracking
+- Smooth movement controls
 
-## Running the Project
+## Installation
 
-To start the Snake Game AI Crew:
+Ensure you have Python >=3.10 <3.13 installed on your system.
 
+1. Install CrewAI and its tools:
 ```bash
-$ crewai run
+pip install 'crewai[tools]'
 ```
 
-This command will:
-1. Initialize the game development agents
-2. Execute the defined tasks in sequence
-3. Generate the game implementation
-4. Run tests and optimizations
+2. Install required game dependencies:
+```bash
+pip install pygame
+```
 
 ## Project Structure
 
-The Snake Game AI Crew consists of specialized agents:
-- Game Designer: Plans game mechanics and features
-- Developer: Implements core game functionality
-- Tester: Ensures game quality and performance
-- UI/UX Specialist: Designs user interface elements
+```
+src/snake_demo/
+├── config/
+│   ├── agents.yaml    # Agent definitions and roles
+│   └── tasks.yaml     # Task configurations
+├── main.py           # Main execution script
+└── generated_game.py  # The generated game code
+```
 
-Each agent contributes to specific tasks defined in `config/tasks.yaml`, creating a comprehensive game development pipeline.
+### AI Agents
+
+The project utilizes three specialized AI agents:
+
+1. **Game Developer**
+   - Role: Senior Software Engineer
+   - Purpose: Creates the initial game implementation
+   - Focus: Core game mechanics and functionality
+
+2. **Code Quality Engineer**
+   - Role: Software Quality Control Engineer
+   - Purpose: Reviews and improves code quality
+   - Focus: Syntax, logic errors, and vulnerabilities
+
+3. **Game Tester**
+   - Role: Chief Software Quality Control Engineer
+   - Purpose: Final validation and testing
+   - Focus: Gameplay functionality and requirements
+
+## Running the Project
+
+To generate and run the game:
+
+1. Execute the main script:
+```bash
+python src/snake_demo/main.py
+```
+
+2. Run the generated game:
+```bash
+python generated_game.py
+```
+
+### Game Controls
+- Left Arrow: Move spaceship left
+- Right Arrow: Move spaceship right
+- Spacebar: Shoot bullets
+
+## How It Works
+
+The project follows a sequential process:
+1. Game Developer creates the initial game code
+2. Code Quality Engineer reviews and improves the code
+3. Game Tester validates the final implementation
+4. The final game is saved as 'generated_game.py'
+
+## Contributing
+
+Feel free to contribute to this project by:
+1. Forking the repository
+2. Creating a new branch for your feature
+3. Submitting a pull request
+
+## License
+
+This project is open-source and available under the MIT License.
 
 ## Support
 
-Need help with your Snake Game AI Crew?
-- Visit [crewAI documentation](https://docs.crewai.com)
+For questions or issues:
+- Check the [CrewAI documentation](https://docs.crewai.com)
+- Open an issue in the repository
+- Contact the maintainers
 
-Start building your snake game with the power of collaborative AI agents!
-## 🔗 Links
-
-[![portfolio](https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-woad-sigma-11.vercel.app/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajmal-ai-engineer/)
-[![email](https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aknizamani@gmail.com)
-
-
-Maintained by: Ajmal Niz
+---
+Created with [CrewAI](https://docs.crewai.com) - Empowering AI Agent Collaboration
